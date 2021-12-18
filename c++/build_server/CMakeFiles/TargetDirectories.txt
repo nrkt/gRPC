@@ -1,3 +1,0 @@
-/workspace/build_server/CMakeFiles/rebuild_cache.dir
-/workspace/build_server/CMakeFiles/edit_cache.dir
-/workspace/build_server/CMakeFiles/server.dir
