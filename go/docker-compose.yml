@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  grpc:
+    container_name: go-grpc
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+    ports:
+      - "3001:50051"
+    stdin_open: true
+    tty: true
